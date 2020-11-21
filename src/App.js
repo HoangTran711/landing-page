@@ -1,24 +1,28 @@
-import logo from './logo.svg';
-import './App.css';
+import React from 'react'
+import { Switch, Route } from  'react-router-dom'
+import {HomePage} from './pages/home/home-page'
+import {RoadmapPage } from './pages/roadmap/roadmap-page'
+import { PrivacyPage } from './pages/privacy/privacy-page'
+import { Sticky } from './components/sticky/sticky'
+import { TermUse } from './pages/term-use/term-use'
+import { Navbar } from './components/Navbar/Navbar'
+import { Menu } from './components/Menu/Menu'
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      
+      <Navbar/>
+      <Sticky/>
+      {/* <Menu /> */}
+      <Switch>
+        <Route path="/" exact component={HomePage} />
+        <Route path="/roadmap" exact component={RoadmapPage} />
+        <Route path="/privacy" exact component={PrivacyPage}/>
+        <Route path="/term-of-use" exact component={TermUse}/>
+      </Switch>
+    </>
   );
 }
 

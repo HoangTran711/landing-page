@@ -1,0 +1,127 @@
+.privacy {
+  color: white;
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+
+.privacy .privacy__overlay {
+  position: absolute;
+  width: 75%;
+  background: linear-gradient(
+    143.5deg,
+    rgba(45, 69, 128, 0.4) 0%,
+    rgba(31, 49, 102, 0.4) 88.58%
+  );
+  height: 80%;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 20px;
+}
+.privacy .privacy__overlay .content__container {
+  margin-top: 3%;
+  max-width: 60%;
+  max-height: 89%;
+  overflow: scroll;
+}
+.privacy .privacy__overlay .content__container .content p {
+  color: #d8d8d8;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 24px;
+}
+.privacy .privacy__overlay .content__container .content a {
+  color: #d8d8d8;
+  font-weight: 300;
+  font-size: 16px;
+}
+.privacy .privacy__overlay .content__container .content li {
+  color: #d8d8d8;
+  font-weight: 300;
+  font-size: 16px;
+}
+.privacy .privacy__overlay .content__container .content li span {
+  color: white;
+}
+.privacy .privacy__overlay .content__container span {
+  line-height: 24px;
+}
+.privacy .privacy__overlay .content__container table {
+  border-collapse: collapse;
+  width: 100%;
+}
+.privacy .privacy__overlay .content__container td,
+th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+.heading-primary {
+  font-size: 40px;
+  font-weight: 600;
+  font-size: 40px;
+  line-height: 52px;
+  text-align: center;
+}
+.heading-secondary {
+  text-transform: uppercase;
+  font-size: 24px;
+  line-height: 24px;
+  font-weight: 600;
+}
+.heading-tertiary {
+  font-size: 18px;
+  line-height: 22px;
+  font-weight: 600;
+  color: white;
+}
+@media screen and (max-width: 735px) {
+  .heading-primary {
+    font-size: 40px;
+    line-height: 40px;
+  }
+  .heading-secondary {
+    font-size: 20px;
+  }
+  .heading-tertiary {
+    font-size: 18px;
+  }
+  .privacy .privacy__overlay .content__container {
+    max-width: 85%;
+  }
+  .privacy .privacy__overlay {
+    width: 90%;
+  }
+}
+@media screen and (max-width: 400px) {
+  .heading-primary {
+    font-size: 20px;
+    line-height: 28px;
+  }
+  .heading-secondary {
+    font-size: 17px;
+  }
+  .heading-tertiary {
+    font-size: 16px;
+  }
+  .privacy .privacy__overlay .content__container .content p {
+    font-size: 12px;
+  }
+  .privacy .privacy__overlay .content__container .content a {
+    font-size: 12px;
+  }
+  .privacy .privacy__overlay .content__container .content li {
+    font-size: 12px;
+  }
+  .privacy .privacy__overlay .content__container .content li span {
+    font-size: 12px;
+  }
+  .privacy .privacy__overlay .content__container td,
+  th {
+    font-size: 12px;
+  }
+}

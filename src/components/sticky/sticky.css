@@ -1,0 +1,39 @@
+.sticky .bottom-right {
+  display: flex;
+  flex-direction: row;
+  position: fixed;
+  bottom: 2%;
+  right: 2%;
+  z-index: 10000000000;
+}
+.sticky .bottom-right a {
+  margin-left: 10px;
+  cursor: pointer;
+  color: #bdbdbd;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+.sticky .bottom-right a:hover {
+  color: white;
+}
+.sticky .bottom-left {
+  position: fixed;
+  bottom: 2%;
+  left: 2%;
+  z-index: 10000;
+}
+.sticky .bottom-left a {
+  cursor: pointer;
+  color: white;
+  font-size: 16px;
+  letter-spacing: 1px;
+  text-decoration: none;
+}
+@media screen and (max-width: 735px) {
+  .sticky .bottom-left a {
+    font-size: 12px;
+  }
+  .sticky .bottom-right a {
+    font-size: 12px;
+  }
+}
