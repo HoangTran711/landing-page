@@ -6,7 +6,6 @@ import { PrivacyPage } from './pages/privacy/privacy-page'
 import { Sticky } from './components/sticky/sticky'
 import { TermUse } from './pages/term-use/term-use'
 import { Navbar } from './components/Navbar/Navbar'
-import { Menu } from './components/Menu/Menu'
 
 
 function App() {

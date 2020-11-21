@@ -13,13 +13,13 @@ export const Menu = () => {
                 <ul className="menu-nav">
                     <FontAwesomeIcon icon={faBars} className="icon" />
                     <li className="menu-item active">
-                        <a className="menu-link" href="#">Products</a>
+                        <a className="menu-link" href="/">Products</a>
                     </li>
                     <li className="menu-item">
-                        <a className="menu-link" href="#">Blog</a>
+                        <a className="menu-link" href="/">Blog</a>
                     </li>
                     <li className="menu-item">
-                        <a className="menu-link" href="#">Community</a>
+                        <a className="menu-link" href="/">Community</a>
                     </li>
                     <li className="menu-item">
                         <Link className="menu-link" to="/roadmap" >Roadmap</Link>

@@ -11,13 +11,13 @@ export const Navbar = () => {
             <div className={classNames("collapse navbar-collapse justify-content-end")} id="navbarNav">
                 <ul className="navbar-nav">
                     <li className={classNames("nav-item active")}>
-                        <a className={classNames("nav-link")} href="#">Products</a>
+                        <a className={classNames("nav-link")} href="/">Products</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Blog</a>
+                        <a className="nav-link" href="/">Blog</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" href="#">Community</a>
+                        <a className="nav-link" href="/">Community</a>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/roadmap" >Roadmap</Link>
