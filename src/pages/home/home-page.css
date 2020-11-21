@@ -10,6 +10,11 @@ html {
 body {
   height: 100%;
 }
+.navbar-brand {
+  position: fixed;
+  top: 15px;
+  left: 40px;
+}
 #root {
   overflow: scroll;
   height: 100%;
@@ -33,6 +38,15 @@ body {
 .hero-banner-2 {
   height: 100%;
   background: url('../assets/bg-2.png');
+}
+.icon-menu {
+  position: absolute;
+  top: 20px;
+  right: 40px;
+  font-size: 30px;
+  color: white;
+  z-index: 10000000000;
+  cursor: pointer;
 }
 .navbar-nav .nav-item a {
   color: white;
@@ -154,6 +168,11 @@ h1.title {
   .img {
     width: 300px;
     margin-top: 60px;
+  }
+}
+@media screen and (max-width: 420px) {
+  .sticky {
+    display: none;
   }
 }
 

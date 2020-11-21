@@ -3,6 +3,7 @@
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr 1fr;
   grid-gap: 30px;
+  padding: 0px 20px;
 }
 .mt-118 {
   margin-top: 118px;
@@ -51,7 +52,7 @@
   }
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 420px) {
   .process-container {
     grid-template-columns: 1fr;
   }

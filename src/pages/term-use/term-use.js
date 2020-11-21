@@ -7,7 +7,6 @@ export const TermUse = () => {
             <div className="hero-banner-2">
                 <div className="term">
                     <div className="term__overlay">
-                        
                         <div className="content__container">
                             <h1 className="heading-primary">TERMS OF USE</h1>
                             <p className="term__updated">Last Updated: September 16, 2020</p>
