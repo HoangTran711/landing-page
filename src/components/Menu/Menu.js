@@ -10,13 +10,13 @@ export const Menu = ({setIsMenuOpen}) => {
                 <div className="bg-2">
                 <ul className="menu-nav">
                     <li onClick={() => setIsMenuOpen(false)} className="menu-item active">
-                        <a className="menu-link" href="/">Products</a>
+                        <Link className="menu-link" to="/">Products</Link>
                     </li>
                     <li onClick={() => setIsMenuOpen(false)} className="menu-item">
-                        <a className="menu-link" href="/">Blog</a>
+                        <a className="menu-link" href="https://lightshadowbox.medium.com/">Blog</a>
                     </li>
                     <li onClick={() => setIsMenuOpen(false)} className="menu-item">
-                        <a className="menu-link" href="/">Community</a>
+                        <a className="menu-link" href="https://t.me/lightshadowbox">Community</a>
                     </li>
                     <li onClick={() => setIsMenuOpen(false)} className="menu-item">
                         <Link className="menu-link" to="/roadmap" >Roadmap</Link>
