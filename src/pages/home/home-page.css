@@ -118,6 +118,9 @@ h1.title {
 .btn-group .btn.btn-link {
   color: white;
 }
+.btn-group .btn.btn-link a {
+  color: white;
+}
 @media screen and (max-width: 770px) {
   .banner-info {
     flex-direction: column-reverse;
