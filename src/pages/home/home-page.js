@@ -16,7 +16,7 @@ export const HomePage = () => {
                                 <button type="button" disabled className={classNames("btn btn-primary")}>Get extension</button>
                                 <span>Coming soon</span>
                             </div>
-                            <button type="button"  className={classNames("btn btn-link")}><a href="https://github.com/lightshadowbox" target="_blank">Read docs</a></button>
+                            <button type="button"  className={classNames("btn btn-link")}><a href="https://github.com/lightshadowbox" target="_blank" rel="noreferrer" >Read docs</a></button>
                         </div>
                     </div>
                     <div className="banner-info__cube">

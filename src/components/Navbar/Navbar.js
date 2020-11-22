@@ -14,10 +14,10 @@ export const Navbar = () => {
                         <Link className="nav-link" to="/">Products</Link>
                     </li>
                     <li className="nav-item">
-                        <a target="_blank" className="nav-link" href="https://lightshadowbox.medium.com/">Blog</a>
+                        <a target="_blank" rel="noreferrer" className="nav-link" href="https://lightshadowbox.medium.com/">Blog</a>
                     </li>
                     <li className="nav-item">
-                        <a className="nav-link" target="_blank" href="https://t.me/lightshadowbox">Community</a>
+                        <a className="nav-link" rel="noreferrer" target="_blank" href="https://t.me/lightshadowbox">Community</a>
                     </li>
                     <li className="nav-item">
                         <Link className="nav-link" to="/roadmap" >Roadmap</Link>
