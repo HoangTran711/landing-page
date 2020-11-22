@@ -2,7 +2,7 @@
   background: url('../assets/bg.png');
   background-position: center center;
   background-size: cover;
-  overflow: scroll;
+  overflow: hidden;
 }
 html {
   height: 100%;
@@ -16,7 +16,7 @@ body {
   left: 40px;
 }
 #root {
-  overflow: scroll;
+  overflow-x: hidden;
   height: 100%;
 }
 .home-page {
@@ -36,6 +36,7 @@ body {
   height: 100vh;
 }
 .hero-banner-2 {
+  overflow: hidden;
   height: 100%;
   background: url('../assets/bg-2.png');
 }
@@ -73,8 +74,8 @@ h1.title {
   height: 100%;
   align-items: center;
   justify-content: space-around;
-  overflow: scroll;
-  padding: 0 150px;
+  overflow-x: hidden;
+  overflow-y: scroll;
 }
 
 .flex {
