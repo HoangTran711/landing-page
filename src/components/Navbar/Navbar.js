@@ -6,7 +6,7 @@ export const Navbar = () => {
     return (
         <div className={classNames("navbar fixed-top  navbar-expand-lg")}>
             <Link className="navbar-brand" to="/">
-                <img src={logo} width="100%" className="d-inline-block align-top" alt="logo"/>
+                <img src={logo} width="100%" className="d-inline-block align-top" alt="logo" />
             </Link>
             <div className={classNames("collapse navbar-collapse justify-content-end")} id="navbarNav">
                 <ul className="navbar-nav">

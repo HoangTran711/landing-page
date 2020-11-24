@@ -50,7 +50,7 @@ export const TermUse = () => {
                             </div>
                             <h3 className="heading-tertiary">5.5 Volatility of Cryptocurrencies</h3>
                             <div className="content">
-                            <p>You understand that Ethereum and other blockchain technologies and associated cryptographic tokens are highly volatile due to many factors including but not limited to adoption, speculation, technology and security risks. You also acknowledge that the cost of transacting on such technologies is variable and may increase at any time causing impact to any activities taking place on the blockchain network. You acknowledge these risks and agree that LSB cannot be held liable for such fluctuations or increased costs.</p>
+                                <p>You understand that Ethereum and other blockchain technologies and associated cryptographic tokens are highly volatile due to many factors including but not limited to adoption, speculation, technology and security risks. You also acknowledge that the cost of transacting on such technologies is variable and may increase at any time causing impact to any activities taking place on the blockchain network. You acknowledge these risks and agree that LSB cannot be held liable for such fluctuations or increased costs.</p>
                             </div>
                             <h3 className="heading-tertiary">5.6 Application Security</h3>
                             <div className="content">
@@ -74,10 +74,10 @@ export const TermUse = () => {
                             <h2 className="heading-secondary">6. Indemnity</h2>
                             <div className="content">
                                 <p>You agree to release and to indemnify, defend and hold harmless LSB and its parents, subsidiaries, affiliates and agencies, as well as the officers, directors, employees, shareholders and representatives of any of the foregoing entities, from and against any and all losses, liabilities, expenses, damages, costs (including attorneys’ fees and court costs) claims or actions of any kind whatsoever arising or resulting from your use of the Services, your violation of these Terms, and any of your acts or omissions that implicate publicity rights, defamation or invasion of privacy. LSB reserves the right, at its own expense, to assume exclusive defense and control of any matter otherwise subject to indemnification by you and, in such case, you agree to cooperate with LSB in the defense of such matter.</p>
-                                
+
                             </div>
                             <h2 className="heading-secondary">
-                            7. Limitation on Liability
+                                7. Limitation on Liability
                             </h2>
                             <div className="content">
                                 <p>YOU ACKNOWLEDGE AND AGREE THAT YOU ASSUME FULL RESPONSIBILITY FOR YOUR USE OF THE SITE, THE APP AND THE SERVICES. YOU ACKNOWLEDGE AND AGREE THAT ANY INFORMATION YOU SEND OR RECEIVE DURING YOUR USE OF THE SITE, THE APP AND THE SERVICES MAY NOT BE SECURE AND MAY BE INTERCEPTED OR LATER ACQUIRED BY UNAUTHORIZED PARTIES. YOU ACKNOWLEDGE AND AGREE THAT YOUR USE OF THE SITE, THE APP AND THE SERVICES IS AT YOUR OWN RISK. RECOGNIZING SUCH, YOU UNDERSTAND AND AGREE THAT, TO THE FULLEST EXTENT PERMITTED BY APPLICABLE LAW, NEITHER LSB NOR ITS SUPPLIERS OR LICENSORS WILL BE LIABLE TO YOU FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, CONSEQUENTIAL, PUNITIVE, EXEMPLARY OR OTHER DAMAGES OF ANY KIND, INCLUDING WITHOUT LIMITATION DAMAGES FOR LOSS OF PROFITS, GOODWILL, USE, DATA OR OTHER TANGIBLE OR INTANGIBLE LOSSES OR ANY OTHER DAMAGES BASED ON CONTRACT, TORT, STRICT LIABILITY OR ANY OTHER THEORY (EVEN IF LSB HAD BEEN ADVISED OF THE POSSIBILITY OF SUCH DAMAGES), RESULTING FROM THE SITE, THE APP OR SERVICES; THE USE OR THE INABILITY TO USE THE SITE, THE APP OR THE SERVICES; UNAUTHORIZED ACCESS TO OR ALTERATION OF YOUR TRANSMISSIONS OR DATA; STATEMENTS OR CONDUCT OF ANY THIRD PARTY ON THE SITE, THE APP OR THE SERVICES; ANY ACTIONS WE TAKE OR FAIL TO TAKE AS A RESULT OF COMMUNICATIONS YOU SEND TO US; HUMAN ERRORS; TECHNICAL MALFUNCTIONS; FAILURES, INCLUDING PUBLIC UTILITY OR TELEPHONE OUTAGES; OMISSIONS, INTERRUPTIONS, LATENCY, DELETIONS OR DEFECTS OF ANY DEVICE OR NETWORK, PROVIDERS, OR SOFTWARE (INCLUDING, BUT NOT LIMITED TO, THOSE THAT DO NOT PERMIT PARTICIPATION IN THE SERVICES); ANY INJURY OR DAMAGE TO COMPUTER EQUIPMENT; INABILITY TO FULLY ACCESS THE SITE, THE APP OR THE SERVICES OR ANY OTHER WEBSITE; THEFT, TAMPERING, DESTRUCTION, OR UNAUTHORIZED ACCESS TO, IMAGES OR OTHER CONTENT OF ANY KIND; DATA THAT IS PROCESSED LATE OR INCORRECTLY OR IS INCOMPLETE OR LOST; TYPOGRAPHICAL, PRINTING OR OTHER ERRORS, OR ANY COMBINATION THEREOF; OR ANY OTHER MATTER RELATING TO THE SITE, THE APP OR ANY OTHER ASPECT OF THE SERVICES.</p>
@@ -87,7 +87,7 @@ export const TermUse = () => {
                             <h3 className="heading-tertiary">8.1 Our Proprietary Rights</h3>
                             <div className="content">
                                 <p>All title, ownership and intellectual property rights in and to the Services are owned by LSB or its licensors. You acknowledge and agree that the Services contain proprietary and confidential information that is protected by applicable intellectual property and other laws. Except as expressly authorized by LSB, you agree not to copy, modify, rent, lease, loan, sell, distribute, perform, display or create derivative works based on the Site, the App or the Services, in whole or in part. </p>
-                                
+
                             </div>
                             <h3 className="heading-tertiary">8.2 Limited License</h3>
                             <div className="content">
@@ -111,7 +111,7 @@ export const TermUse = () => {
                             <h2 className="heading-secondary">11. No Third Party Beneficiaries</h2>
                             <div className="content">
                                 <p>You agree that, except as otherwise expressly provided in these Terms, there shall be no third party beneficiaries to the Terms.</p>
-                                
+
                             </div>
                             <h2 className="heading-secondary">12. Notice and Procedure For Making Claims of Copyright Infringement</h2>
                             <div className="content">
@@ -131,14 +131,14 @@ export const TermUse = () => {
                                 <p>15th Le Thanh Ton Street, Ben Nghe ward, District 1, Ho Chi Minh city, 700000</p>
                             </div>
                             <h2 className="heading-secondary">
-                            13. Binding Arbitration and Class Action Waiver
+                                13. Binding Arbitration and Class Action Waiver
                             </h2>
                             <div className="content">
                                 <p>PLEASE READ THIS SECTION CAREFULLY – IT MAY SIGNIFICANTLY AFFECT YOUR LEGAL RIGHTS, INCLUDING YOUR RIGHT TO FILE A LAWSUIT IN COURT</p>
                             </div>
                             <h3 className="heading-tertiary">13.1 Initial Dispute Resolution</h3>
                             <div className="content">
-                            <p>The parties shall use their best efforts to engage directly to settle any dispute, claim, question, or disagreement and engage in good faith negotiations which shall be a condition to either party initiating a lawsuit or arbitration.</p>
+                                <p>The parties shall use their best efforts to engage directly to settle any dispute, claim, question, or disagreement and engage in good faith negotiations which shall be a condition to either party initiating a lawsuit or arbitration.</p>
                             </div>
                             <h3 className="heading-tertiary">13.2 Binding Arbitration</h3>
                             <div className="content">

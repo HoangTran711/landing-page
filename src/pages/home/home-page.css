@@ -115,6 +115,10 @@ h1.title {
   border: 1px solid white;
   color: white;
 }
+.btn-group .btn.btn-primary a{ 
+  color: white;
+  text-decoration: none;
+}
 .btn-group .btn.btn-link {
   color: white;
 }
