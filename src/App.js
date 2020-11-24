@@ -10,8 +10,6 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Menu } from './components/Menu/Menu'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { Helmet } from 'react-helmet'
-import Banner from './pages/assets/Home.png'
 
 
 
