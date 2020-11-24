@@ -10,7 +10,6 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Menu } from './components/Menu/Menu'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
-import { Helmet } from 'react-helmet'
 
 
 
@@ -19,15 +18,6 @@ function App() {
 
   return (
     <>
-      <Helmet>
-        <meta property="og:title" content="Light Shadow Box" />
-        <meta property="og:image" content="https://picsum.photos/200/300" />
-        <meta property="og:image:secure_url" content="https://secure.example.com/ogp.jpg" />
-        <meta property="og:image:type" content="image/jpeg" />
-        <meta property="og:image:width" content="400" />
-        <meta property="og:image:height" content="300" />
-        <meta property="og:image:alt" content="A shiny red apple with a bite taken out" />
-      </Helmet>
       <Link className="navbar-brand" to="/">
         <img src={logo} width="100%" className="d-inline-block align-top" alt="logo" />
       </Link>
