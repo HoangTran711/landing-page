@@ -10,6 +10,8 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Menu } from './components/Menu/Menu'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { Helmet } from 'react-helmet'
+import Banner from '../public/Home.png'
 
 
 
@@ -18,6 +20,13 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <meta property="og:title" content="Light Shadow Box" />
+        <meta property="og:description"
+          content="Light Shadow Box is a crypto wallet that allows you to hold, send, receive & swap crypto anonymously. In other words, it is your gateway to crypto privacy." />
+        <meta property="og:image" content={Banner} />
+        <meta property="og:url" content="https://lightshadowbox.app/" />
+      </Helmet>
       <Link className="navbar-brand" to="/">
         <img src={logo} width="100%" className="d-inline-block align-top" alt="logo" />
       </Link>
