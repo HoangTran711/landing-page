@@ -4,6 +4,7 @@ import './home-page.css'
 import classNames from 'classnames'
 import Build from '../assets/build.zip'
 
+
 export const HomePage = () => {
     return (
         <div className="hero-banner home-page">
