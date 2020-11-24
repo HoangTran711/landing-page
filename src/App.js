@@ -10,6 +10,9 @@ import { Navbar } from './components/Navbar/Navbar'
 import { Menu } from './components/Menu/Menu'
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faBars } from '@fortawesome/free-solid-svg-icons'
+import { Helmet } from 'react-helmet'
+import Banner from './pages/assets/Home.png'
+
 
 
 function App() {
@@ -17,6 +20,12 @@ function App() {
 
   return (
     <>
+      <Helmet>
+        <meta property="og:title" content="Light Shadow Box" />
+        <meta property="og:type" content="video.movie" />
+        <meta property="og:url" content="https://lightshadowbox.app/" />
+        <meta property="og:image" content={Banner} />
+      </Helmet>
       <Link className="navbar-brand" to="/">
         <img src={logo} width="100%" className="d-inline-block align-top" alt="logo" />
       </Link>
