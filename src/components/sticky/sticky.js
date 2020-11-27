@@ -10,7 +10,7 @@ export const Sticky = () => {
                 <Link to="term-of-use"><p>Terms of use</p></Link>
             </div>
             <div className="bottom-left">
-                <Link to="/"><p>What's LightShadowbox?</p></Link>
+                <a href="https://lightshadowbox.medium.com/about-light-shadow-box-509b3b999564" target="_blank" rel="noreferrer"><p>What's LightShadowbox?</p></a>
             </div>
         </div>
     )
