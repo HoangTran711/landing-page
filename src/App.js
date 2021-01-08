@@ -29,6 +29,7 @@ function App() {
         <Route path="/roadmap" exact component={RoadmapPage} />
         <Route path="/privacy" exact component={PrivacyPage} />
         <Route path="/term-of-use" exact component={TermUse} />
+        <Route  exact component={HomePage} />
       </Switch>
     </>
   );
